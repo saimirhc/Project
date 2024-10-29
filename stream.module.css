@@ -1,0 +1,22 @@
+/* styles/Stream.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Optional: black background */
+}
+
+.iframe {
+    width: 100%; /* Full width */
+    height: 500px; /* Fixed height */
+    border: none; /* Remove border */
+}
+
+/* Optional: Add responsiveness */
+@media (max-width: 600px) {
+    .iframe {
+        height: 300px; /* Smaller height for smaller screens */
+    }
+}
